@@ -1,6 +1,6 @@
 import React from 'react';
 import {addob} from "./ob";
-import ob from './ob';
+var ob2 = JSON.parse(localStorage.getItem("users") || "[]");
 
 
 
@@ -15,7 +15,7 @@ function Addinfo() {
         "image": null,
         "description": null
     };
-
+    info.id = (ob2.length)+1;
     info.Name = document.getElementById("nameinfo").value;
     info.Featured = document.getElementById("featuredinfo").value;
     info.fav_count = document.getElementById("likeinfo").value;
@@ -25,6 +25,7 @@ function Addinfo() {
     info.description = document.getElementById("desinfo").value;
 
     addob(info);
+    window.location.reload();
     
 
 }

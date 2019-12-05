@@ -33,7 +33,7 @@ img {
     width: 348px;
     height: 200px;
     padding-bottom: 20px;
-    object-fit: cover;
+    
 }
 
 h1 {
@@ -315,4 +315,47 @@ margin: 20px 20px 20px 0;
       background-color: #EF3652;
   }
 
+  #editname {
+      margin-left: 50px;
+  }
+
+  #editbutton {
+      text-align: center;
+      margin: 5% 45%;
+  }
+
+  #movecom {
+      position: absolute;
+      color: #ffff;
+      right: 0;
+      top: 0;
+      width: 57px;
+      font-size: 17px;
+height: 36px;
+padding-top: 10px;
+padding-left: 10px;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 50px;
+  }
+
+  .fas{
+      height: 20px;
+      width: 20px;;
+      color: #ffff;
+      margin-right: 7px;
+  }
+
+  h3{
+      color: black !important;
+  }
+
+  #brandmove{
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+  }
+
   
+
+
+
