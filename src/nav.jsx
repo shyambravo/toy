@@ -1,5 +1,6 @@
 import React from 'react';
 import App from "./App";
+import Add from "./add";
 
 
 
@@ -16,7 +17,7 @@ function Nav() {
           <a className="nav-link" href={<App />}>Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Add Toys</a>
+          <a className="nav-link" href={<Add />}>Add Toys</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Edit Toys</a>
